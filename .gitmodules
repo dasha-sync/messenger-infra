@@ -1,6 +1,6 @@
 [submodule "front"]
 	path = front
-	url = git@github.com:dasha-sync/messenger-front.git
+	url = https://github.com/dasha-sync/messenger.git
 [submodule "back"]
 	path = back
-	url = git@github.com:dasha-sync/messenger.git
+	url = https://github.com/dasha-sync/messenger-front.git
