@@ -1,0 +1,6 @@
+[submodule "messenger"]
+	path = messenger
+	url = https://github.com/dasha-sync/messenger.git
+[submodule "messenger-front"]
+	path = messenger-front
+	url = https://github.com/dasha-sync/messenger-front.git
