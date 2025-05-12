@@ -33,6 +33,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "chore: auto-update submodules from dispatch"
+            git commit -m "auto-update submodules from dispatch"
             git push
           fi
