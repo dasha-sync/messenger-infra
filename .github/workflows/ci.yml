@@ -23,8 +23,7 @@ jobs:
           rm -rf back
           git config user.name "dasha-sync"
           git config user.email ${{ secrets.EMAIL }}
-          git submodule update --init --recursive
-          git submodule update --remote --merge
+          git submodule update --init --remote --merge
 
       - name: Commit and push changes if any
         run: |
