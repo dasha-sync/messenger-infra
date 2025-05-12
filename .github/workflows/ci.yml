@@ -17,6 +17,10 @@ jobs:
 
       - name: Update submodules to latest commit
         run: |
+          rm -rf .git/modules/front
+          rm -rf .git/modules/back
+          rm -rf front
+          rm -rf back
           git submodule update --init --recursive
           git submodule update --remote --merge
 
