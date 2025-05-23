@@ -12,6 +12,6 @@ $ git clone --recurse-submodules https://github.com/you/dev-env.git
 ```sh
 $ docker compose up --build
 ```
-
+Take advantage of Talk Wire http://localhost:5173/
 
 After `git pull` don't forget to load the updated sub modules `git submodule update`
