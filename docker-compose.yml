@@ -11,7 +11,6 @@ services:
     command: ./mvnw spring-boot:run -Dspring-boot.run.profiles=prod
     depends_on:
       - db
-      - rabbitmq
 
   frontend:
     build:
@@ -32,10 +31,3 @@ services:
       POSTGRES_DB: messenger
     ports:
       - "5433:5432"
-
-  rabbitmq:
-    image: rabbitmq:3-management
-    ports:
-      - "5672:5672"
-      - "15672:15672"
-
