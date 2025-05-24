@@ -6,7 +6,7 @@ a.k.a Telegram
 
 ## Clone
 ```sh
-$ git clone --recurse-submodules https://github.com/you/dev-env.git
+$ git clone --recurse-submodules https://github.com/dasha-sync/messenger-infra.git
 ```
 ## Run
 ```sh
